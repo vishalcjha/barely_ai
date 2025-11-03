@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include/**",
+                "${workspaceFolder}/include/cudart/**",
+                "${default}"
+            ],
+            "defines": [
+                "__CUDACC__",
+                "__CUDA_ARCH__=750",
+                "__global__=__attribute__((global))",
+                "__device__=__attribute__((device))",
+                "__host__=__attribute__((global))",
+                "__shared__=__attribute__((global))",
+                "__constant__=__attribute__((global))",
+                "CUDA_VERSION=12000"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c23",
+            "cppStandard": "c++20",
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "intelliSenseMode": "macos-clang-x64"
+        }
+    ],
+    "version": 4
+}

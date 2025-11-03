@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.cu" : "cpp",
+        "*.cuh" : "cpp"
+    },
+    "clangd.arguments": [
+        "--header-insertion=never",
+        "--compile-commands-dir=${workspaceFolder}",
+        "--query-driver=/usr/bin/clang"
+    ]
+}
