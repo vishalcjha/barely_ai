@@ -1,11 +1,13 @@
 {
     "files.associations": {
         "*.cu" : "cpp",
-        "*.cuh" : "cpp"
+        "*.cuh" : "cpp",
+        "*.cc" : "cpp"
     },
     "clangd.arguments": [
         "--header-insertion=never",
         "--compile-commands-dir=${workspaceFolder}",
         "--query-driver=/usr/bin/clang"
-    ]
+    ],
+    "cmake.sourceDirectory": "/Users/vishal/Documents/code/barely_ai/src/batching"
 }

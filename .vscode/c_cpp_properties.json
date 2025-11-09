@@ -6,8 +6,18 @@
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/include/**",
                 "${workspaceFolder}/include/cudart/**",
+                "/opt/homebrew/include/**",
+                "/opt/homebrew/include/grpcpp/**",
                 "${default}"
             ],
+            "compileCommands": "${workspaceFolder}/compile_commands.json",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "/opt/homebrew/include",
+                    "/opt/homebrew/include/grpcpp"
+                ]
+            },
             "defines": [
                 "__CUDACC__",
                 "__CUDA_ARCH__=750",
