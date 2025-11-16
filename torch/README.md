@@ -22,6 +22,7 @@ multidimensional matrix.
   
 
 ### Setting environment
+#### Option 1 - [Use local jypyter notebook](discover_pi_jupyter.ipynb)
 * Make sure to have python. I am using python `3.11`. I had trouble with latest version, but could have been just cache issues.
 * I am running notebook in python virtual environment. 
   * `python3.11 -m venv .venv` to create virtual environment.
@@ -30,6 +31,8 @@ multidimensional matrix.
     * torch
     * jupyter
     * matplotlib
+  
+#### Option 2 - [Use Google Colab](./discover_pi.ipynb) 
 
 ## Discover PI
 This example is highly motivated by finding relationship between celcius and fahrenheit example in book [**Deeplearning with Pytorch**](https://www.manning.com/books/deep-learning-with-pytorch).
@@ -70,4 +73,4 @@ Now when we run this learning loop, we discover the loss value drops near zero. 
 Deeplearning relies on training on a large dataset. One begins with a random estimate of parameters that get updated during each epoch. In the real world, one does not try different methods as we did in our example. There are sets of mathematical learning functions that capture the essence of different phenomena. The hard part is having data and the
 ability to run training loops. And for sure, I am simplifying this to a very basic level, but my hope is to make it easy to understand for myself and others.
 
-I hightly encourage you to run notebook locally. It takes less than a minute of your time.
+I hightly encourage you to run at [Google Colab](https://colab.research.google.com/drive/1UGpOLQbDSQmSrpxlIm9aZCeO3Kl6QnDv) OR [Jupyter notebook locally](./discover_pi_jupyter.ipynb). It takes less than a minute of your time.
